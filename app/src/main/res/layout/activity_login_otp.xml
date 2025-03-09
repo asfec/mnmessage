@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".loginphonenumber"
+    android:background="@color/backgroundnight"
+    >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cricle_bg"
+        android:backgroundTint="@color/blue"
+        android:src="@drawable/back_btn"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_backotp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/input_otp"
+            android:layout_marginBottom="30dp"
+            />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nhập mã otp của bạn   "
+            android:textSize="20sp"
+            android:textColor="@color/backgrounday"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Mã otp"
+                android:textColor="@color/backgrounday"
+                android:layout_margin="10dp"
+                android:inputType="phone"
+                android:background="@drawable/input_bg"
+                android:elevation="5dp"
+                android:backgroundTint="@color/messagegrey"
+                android:maxLength="6"
+                android:id="@+id/input_otp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:text="Confirm"
+                android:padding="10dp"
+                android:id="@+id/btn_confirm"/>
+
+            <ProgressBar
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/pb_confirm"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <RelativeLayout
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/cricle_bg"
+                android:backgroundTint="@color/messagegrey"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="monospace"
+                    android:text="1"
+                    android:textColor="@color/backgrounday"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/cricle_bg"
+                android:backgroundTint="@color/blue"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="monospace"
+                    android:text="2"
+                    android:textColor="@color/backgrounday"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/cricle_bg"
+                android:backgroundTint="@color/messagegrey"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="monospace"
+                    android:text="3"
+                    android:textColor="@color/backgrounday"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend otp in 30 second"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/messagegrey"
+        android:id="@+id/resend_otp"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mnmessage</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="appname">Message</string>
+    <string name="develop_by_tmessage_company">Develop by Tmessage company</string>
+    <string name="tmessage_company">Tmessage Company</string>
+</resources>

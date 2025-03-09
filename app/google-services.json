@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090750643137",
+    "project_id": "mnmessage",
+    "storage_bucket": "mnmessage.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090750643137:android:1899a30c063001cb73cd40",
+        "android_client_info": {
+          "package_name": "com.example.mnmessage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbCNcC_o70CEmntLFpasV0JojP_u0Fgcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
